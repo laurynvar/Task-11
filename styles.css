@@ -74,4 +74,5 @@ tr:nth-child(odd) {
   height: 32px;
   width: 240px;
   margin-top: 13px;
+  padding: 5px 10px;
 }
