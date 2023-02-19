@@ -11,6 +11,8 @@ body {
   margin: auto;
 }
 
+/*index.html*/
+
 #add-skill {
   background-color: rgba(22, 31, 39);
   color: white;
@@ -42,3 +44,34 @@ tr:nth-child(odd) {
 }
 
 /* add.html*/
+
+#view-skills {
+  background-color: rgba(22, 31, 39);
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border-color: rgba(22, 31, 39);
+  border-style: solid;
+  margin-top: 30px;
+}
+
+#add-skill-btn {
+  background-color: rgba(22, 31, 39);
+  border-color: rgba(22, 31, 39);
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border-style: solid;
+  margin-top: 10px;
+}
+
+#addskill-input {
+  background-color: rgba(22, 31, 39);
+  border-color: rgba(22, 31, 39);
+  border-style: solid;
+  border-radius: 5px;
+  color: gray;
+  height: 32px;
+  width: 240px;
+  margin-top: 13px;
+}
