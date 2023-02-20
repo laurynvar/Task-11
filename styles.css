@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(32, 43, 56);
+  font-family: Helvetica, arial, sans-serif;
+  color: white;
+  max-width: 960px;
+  margin: auto;
+}
+
+/*index.html*/
+
+#add-skill {
+  background-color: rgba(22, 31, 39);
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border-color: rgba(22, 31, 39);
+  border-style: solid;
+  margin-top: 30px;
+}
+
+main {
+  margin-top: 50px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 30px;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: rgba(22, 31, 39);
+}
+
+/* add.html*/
+
+#view-skills {
+  background-color: rgba(22, 31, 39);
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border-color: rgba(22, 31, 39);
+  border-style: solid;
+  margin-top: 30px;
+}
+
+#add-skill-btn {
+  background-color: rgba(22, 31, 39);
+  border-color: rgba(22, 31, 39);
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border-style: solid;
+  margin-top: 10px;
+}
+
+#addskill-input {
+  background-color: rgba(22, 31, 39);
+  border-color: rgba(22, 31, 39);
+  border-style: solid;
+  border-radius: 5px;
+  color: gray;
+  height: 32px;
+  width: 240px;
+  margin-top: 13px;
+  padding: 5px 10px;
+}
